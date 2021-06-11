@@ -1,4 +1,5 @@
 import random
+import time
 
 rps = ["Rock", "paper", "scissors"]
 answer = random.choice(rps)
@@ -33,3 +34,4 @@ while True:
             print("Scissors beat paper! You lost :(")
             break
 
+time.sleep(5)
